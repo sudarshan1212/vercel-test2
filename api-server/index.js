@@ -96,7 +96,7 @@ app.use("/deploy", async (req, res) => {
     launchType: "FARGATE",
     count: 1,
     networkConfiguration: {
-      awsvpcConfiguration: { 
+      awsvpcConfiguration: {
         assignPublicIp: "ENABLED",
         subnets: [
           "subnet-02ea77efd15f7de9f",
